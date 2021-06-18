@@ -1,0 +1,52 @@
+        body {
+            font-family: 'Jost', sans-serif;
+        }
+
+        .menu {
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .menu:hover {
+            text-decoration: underline;
+            color: #F13C6E;
+        }
+
+        #logo {
+            font-size: 36px;
+            font-weight: 700;
+            color: #F13C6E;
+        }
+
+        #search {
+            border-style: none;
+            border-radius: 10px;
+            padding: 5px;
+            background-color: #EFEFEF;
+        }
+
+        #search:focus {
+            background-color: #fdbfd17e;
+        }
+
+        #backcall {
+            border-radius: 10px;
+            border-style: solid;
+            border-color: #F13C6E;
+            padding: 5px;
+        }
+
+        #backcall:active {
+            background-color: #F13C6E;
+        }
+
+        .sale {
+            width: 100vw;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .article:first-letter {
+            font-size: 20px;
+            color: #f7aac0;
+        }
